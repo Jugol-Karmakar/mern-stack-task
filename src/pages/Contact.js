@@ -1,4 +1,6 @@
 import React from "react";
+import { BsFacebook, BsInstagram } from "react-icons/bs";
+import { FaLinkedinIn, FaTwitter, FaGooglePlusG } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -70,19 +72,21 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <div className="mt-6">
-            <h2 className="text-3xl font-bold ">
-              Call Now : <span className="text-blue-600">+000-999-555</span>
-            </h2>
-            <div className="mt-3 flex flex-row">
-              <input
-                type="text"
-                placeholder="Enter Number"
-                className="py-3 pl-2 lg:px-4 max-w-xs bg-slate-100 outline-none rounded-tl-full rounded-bl-full"
-              />
-              <button className="bg-blue-600 border-0 px-2 lg:px-10 text-white py-3 rounded-tr-full rounded-br-full ">
-                Free Phone Back
-              </button>
+          <div className="flex items-center justify-center mt-6">
+            <div className="bg-blue-600 mr-2 p-3 cursor-pointer drop-shadow rounded-full hover:scale-125 transition-all duration-300">
+              <BsFacebook className="text-xl text-white" />
+            </div>
+            <div className="bg-cyan-600 mr-2 p-3 cursor-pointer drop-shadow rounded-full hover:scale-125 transition-all duration-300">
+              <FaTwitter className="text-xl text-white" />
+            </div>
+            <div className="bg-blue-500 mr-2 p-3 cursor-pointer drop-shadow rounded-full hover:scale-125 transition-all duration-300">
+              <FaLinkedinIn className="text-xl text-white" />
+            </div>
+            <div className="bg-red-600 mr-2 p-3 cursor-pointer drop-shadow rounded-full hover:scale-125 transition-all duration-300">
+              <FaGooglePlusG className="text-xl text-white" />
+            </div>
+            <div className="bg-pink-500 mr-2 p-3 cursor-pointer drop-shadow rounded-full hover:scale-125 transition-all duration-300">
+              <BsInstagram className="text-xl text-white" />
             </div>
           </div>
         </div>

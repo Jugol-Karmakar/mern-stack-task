@@ -7,6 +7,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 import { Pagination, Navigation, Autoplay } from "swiper";
+import { Link } from "react-router-dom";
 
 const Product = ({ isHome }) => {
   const products = [
@@ -115,7 +116,7 @@ const Product = ({ isHome }) => {
     <div className="mx-20">
       {isHome ? (
         <h2 className="text-center text-xl font-semibold py-10 mt-4">
-          Products
+          Cloth Collection
         </h2>
       ) : (
         ""
@@ -126,7 +127,7 @@ const Product = ({ isHome }) => {
         slidesPerGroup={4}
         loop={true}
         autoplay={{
-          delay: 2500,
+          delay: 3000,
           disableOnInteraction: false,
         }}
         loopFillGroupWithBlank={true}
@@ -144,7 +145,7 @@ const Product = ({ isHome }) => {
           >
             <div className="w-full h-[300px] overflow-hidden">
               <img
-                className="w-full h-full object-contain"
+                className="w-full h-full object-cover hover:scale-125 transition-all duration-500"
                 src={product.image}
                 alt=""
               />
@@ -164,6 +165,9 @@ const Product = ({ isHome }) => {
           </SwiperSlide>
         ))}
       </Swiper>
+      <button>
+        <Link to="/product">See All Product</Link>
+      </button>
     </div>
   );
 };
