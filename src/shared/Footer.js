@@ -12,7 +12,7 @@ const Footer = () => {
   const today = new Date();
   const year = today.getFullYear();
   return (
-    <div>
+    <div className="bg-white">
       <div className="container mx-auto flex justify-around py-4">
         <div className="max-w-[400px]">
           <h2 className="text-2xl font-bold text-black">FOOTER</h2>

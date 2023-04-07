@@ -14,9 +14,6 @@ const Header = () => {
         <Link to="/product" className="mr-5 text-base font-medium py-3 px-3">
           Product
         </Link>
-        <Link to="/booking" className="mr-5 text-base font-medium py-3 px-3">
-          Booking
-        </Link>
         <Link to="/about" className="mr-5 text-base font-medium py-3 px-3">
           About
         </Link>

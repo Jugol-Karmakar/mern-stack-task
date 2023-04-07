@@ -73,19 +73,19 @@ const Contact = () => {
             </div>
           </div>
           <div className="flex items-center justify-center mt-6">
-            <div className="bg-blue-600 mr-2 p-3 cursor-pointer drop-shadow rounded-full hover:scale-125 transition-all duration-300">
+            <div className="bg-black mr-2 p-2 cursor-pointer drop-shadow">
               <BsFacebook className="text-xl text-white" />
             </div>
-            <div className="bg-cyan-600 mr-2 p-3 cursor-pointer drop-shadow rounded-full hover:scale-125 transition-all duration-300">
+            <div className="bg-black mr-2 p-2 cursor-pointer drop-shadow">
               <FaTwitter className="text-xl text-white" />
             </div>
-            <div className="bg-blue-500 mr-2 p-3 cursor-pointer drop-shadow rounded-full hover:scale-125 transition-all duration-300">
+            <div className="bg-black mr-2 p-2 cursor-pointer drop-shadow">
               <FaLinkedinIn className="text-xl text-white" />
             </div>
-            <div className="bg-red-600 mr-2 p-3 cursor-pointer drop-shadow rounded-full hover:scale-125 transition-all duration-300">
+            <div className="bg-black mr-2 p-2 cursor-pointer drop-shadow">
               <FaGooglePlusG className="text-xl text-white" />
             </div>
-            <div className="bg-pink-500 mr-2 p-3 cursor-pointer drop-shadow rounded-full hover:scale-125 transition-all duration-300">
+            <div className="bg-black mr-2 p-2 cursor-pointer drop-shadow">
               <BsInstagram className="text-xl text-white" />
             </div>
           </div>
