@@ -67,7 +67,7 @@ const Reviews = () => {
           }}
           navigation={true}
           modules={[Autoplay, Pagination, Navigation]}
-          className="mySwiper"
+          className="mySwiper swiper-review"
         >
           {reviews.map((review) => (
             <SwiperSlide
