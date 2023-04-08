@@ -4,9 +4,9 @@ import { FaLinkedinIn, FaTwitter, FaGooglePlusG } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <div className="min-h-screen">
+    <section className="min-h-screen">
       <div className="container mx-auto px-10 lg:px-20 grid grid-cols-1 md:grid-cols-2 gap-6 my-10 py-10">
-        <div className="shadow-xl rounded-xl py-10">
+        <div className="border rounded-xl py-10">
           <h2 className="text-center font-bold text-3xl my-4">Send Message</h2>
           <form>
             <input
@@ -91,7 +91,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

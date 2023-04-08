@@ -33,7 +33,7 @@ const Hero = () => {
             alt=""
           />
           <div className="absolute px-10 py-6 mt-20 -ml-[600px] drop-shadow-xl">
-            <h3 className="text-2xl font-bold text-white pb-4">
+            <h3 className="text-3xl font-bold text-white pb-4">
               Men's New Classical Watch
             </h3>
             <p className="text-sm font-medium text-white">
@@ -55,14 +55,14 @@ const Hero = () => {
         </SwiperSlide>
         <SwiperSlide className="relative">
           <img
-            src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
+            src="https://images.unsplash.com/photo-1585298964673-eb8a63f230c9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
             alt=""
           />
-          <div className="absolute bg-white px-10 py-6 mt-20 -ml-[800px] drop-shadow-xl">
-            <h3 className="text-xl font-bold text-gray-700 pb-4">
-              New Summer Colection Collection
+          <div className="absolute px-10 py-6 mt-20 -ml-[700px] drop-shadow-xl">
+            <h3 className="text-3xl font-bold text-white pb-4">
+              New Summer Collection
             </h3>
-            <p className="text-sm font-medium">
+            <p className="text-sm font-medium text-white">
               Classy & elegant, this handbag by Prive Roma is a must-have,{" "}
               <br /> that most fashion-conscious women will die to own.
             </p>
@@ -77,8 +77,8 @@ const Hero = () => {
             alt=""
           />
           <div className="absolute px-10 py-6 mt-20 -ml-[800px] drop-shadow-xl">
-            <h3 className="text-2xl font-bold text-white pb-4">
-              New Summer Colection Collection
+            <h3 className="text-3xl font-bold text-white pb-4">
+              Headphone Collection
             </h3>
             <p className="text-sm font-medium text-white">
               Classy & elegant, this handbag by Prive Roma is a must-have,{" "}
