@@ -8,25 +8,6 @@ const Booking = () => {
   const { id } = useParams();
   const productData = data;
   const [count, setCount] = useState(1);
-  const [payment1Card, setPayment1Card] = useState(false);
-  const [payment2Card, setPayment2Card] = useState(false);
-
-  const handleCard1 = () => {
-    setPayment1Card(true);
-    setPayment2Card(false);
-  };
-  const handleCard2 = () => {
-    setPayment2Card(true);
-    setPayment2Card(false);
-  };
-
-  // const [giftItem, setGiftItem] = useState([]);
-
-  // useEffect(() => {
-  //   fetch("https://fakestoreapi.com/products")
-  //     .then((res) => res.json())
-  //     .then((data) => console.log(data));
-  // }, []);
 
   const product = productData.find((item) => item.id === parseInt(id));
 
@@ -70,12 +51,7 @@ const Booking = () => {
           </div>
         </div>
         <div className="w-full max-w-2xl">
-          <BookingForm
-            payment1Card={payment1Card}
-            payment2Card={payment2Card}
-            handleCard1={handleCard1}
-            handleCard2={handleCard2}
-          />
+          <BookingForm />
         </div>
       </div>
     </div>

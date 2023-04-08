@@ -7,17 +7,19 @@ const SinglegiftItem = ({ giftItem }) => {
     navigate(`/booking/${id}`);
   };
   return (
-    <div className="flex flex-col border relative">
-      <div className="overflow-hidden">
-        <img
-          className="w-full h-[200px] object-contain hover:scale-125 transition-all duration-300"
-          src={giftItem.image}
-          alt=""
-        />
-      </div>
-      <div className="p-4 text-left">
-        <h4 className="text-left">{giftItem.title}</h4>
-        <p>Price: {giftItem.price}</p>
+    <div className="flex flex-col justify-between border relative">
+      <div>
+        <div className="overflow-hidden">
+          <img
+            className="w-full h-[200px] object-contain hover:scale-125 transition-all duration-300"
+            src={giftItem.image}
+            alt=""
+          />
+        </div>
+        <div className="p-4 text-left">
+          <h4 className="text-left">{giftItem.title}</h4>
+          <p>Price: {giftItem.price}</p>
+        </div>
       </div>
       <div className="flex justify-end m-4">
         <button

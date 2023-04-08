@@ -2,12 +2,7 @@ import React, { useState } from "react";
 import { ErrorMessage } from "@hookform/error-message";
 import { useForm } from "react-hook-form";
 
-const BookingForm = ({
-  payment1Card,
-  payment2Card,
-  handleCard1,
-  handleCard2,
-}) => {
+const BookingForm = () => {
   const {
     register,
     formState: { errors },
@@ -18,7 +13,8 @@ const BookingForm = ({
 
   const onSubmit = (data) => console.log(data);
 
-  const [showPayment, setShowPayment] = useState(true);
+  const [cardit, setCradit] = useState(false);
+  const [cashOn, setCashON] = useState(false);
 
   return (
     <div className="w-full bg-white shadow-lg rounded-md">
@@ -192,17 +188,21 @@ const BookingForm = ({
           </h3>
           <div className="flex items-center">
             <input
-              type="checkbox"
+              type="radio"
               id="cradit"
               name="Cadit Card"
+              checked={cardit}
               className="cursor-pointer rounded h-5 w-5"
-              onClick={() => setShowPayment(!showPayment)}
+              onChange={(e) => {
+                setCradit(e.target.checked);
+                setCashON(!e.target.checked);
+              }}
             />
             <label htmlFor="cadit" className="text-lg font-medium ml-2">
               Cadit Card
             </label>
           </div>
-          {!showPayment && (
+          {cardit && (
             <div className="flex flex-col max-w-md mx-auto">
               <input
                 type="text"
@@ -227,10 +227,15 @@ const BookingForm = ({
 
           <div className="flex items-center">
             <input
-              type="checkbox"
+              type="radio"
               id="cradit"
+              checked={cashOn}
               name="Cadit Card"
               className="cursor-pointer rounded h-5 w-5"
+              onChange={(e) => {
+                setCashON(e.target.checked);
+                setCradit(!e.target.checked);
+              }}
             />
             <label htmlFor="cadit" className="text-lg font-medium ml-2">
               Cash on Delivery

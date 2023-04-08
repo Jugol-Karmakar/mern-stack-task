@@ -15,7 +15,7 @@ const Footer = () => {
     <div className="bg-white">
       <div className="container mx-auto flex justify-around py-4">
         <div className="max-w-[400px]">
-          <h2 className="text-2xl font-bold text-black">FOOTER</h2>
+          <h2 className="text-2xl font-bold text-black">Dream House</h2>
           <p className="py-3 text-sm text-gray-800">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
             tempora, fugiat reiciendis impedit veniam iure laudantium, dolorem
