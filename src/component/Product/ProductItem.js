@@ -16,7 +16,18 @@ const ProductItem = ({ isHome, giftItems }) => {
               <SingleProduct key={giftItem.id} giftItem={giftItem} />
             ))}
       </div>
-      {isHome ? <Link to="/product">See All Product</Link> : ""}
+      {isHome ? (
+        <div className="flex justify-center mt-5">
+          <Link
+            to="/product"
+            className="border border-black py-2 px-4 text-lg font-medium hover:bg-black hover:text-white transition-all duration-300"
+          >
+            See All Product
+          </Link>
+        </div>
+      ) : (
+        ""
+      )}
     </div>
   );
 };

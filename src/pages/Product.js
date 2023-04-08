@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 import ProductCatagory from "../component/Product/ProductCatagory";
 import ProductItem from "../component/Product/ProductItem";
-import Data from "../Data";
+import { data } from "../Data";
 
 const Product = ({ isHome }) => {
-  const [giftItems, setGiftItems] = useState(Data);
+  const [giftItems, setGiftItems] = useState(data);
 
-  const menuItems = [...new Set(Data.map((Value) => Value.category))];
+  const menuItems = [...new Set(data.map((Value) => Value.category))];
 
   const filterItem = (currentCatagory) => {
-    const newItem = Data.filter((newVal) => {
-      return newVal.category === currentCatagory;
+    const newItem = data.filter((newCatagory) => {
+      return newCatagory.category === currentCatagory;
     });
     setGiftItems(newItem);
   };

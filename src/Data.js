@@ -1,4 +1,4 @@
-const Data = [
+export const data = [
   {
     id: 1,
     title: "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
@@ -139,6 +139,92 @@ const Data = [
     category: "women's clothing",
     image: "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
   },
+  {
+    id: 21,
+    title: "Crapt Faces Watch",
+    price: 12.99,
+    category: "Watch Collection",
+    image:
+      "https://cdn.shopify.com/s/files/1/0086/2348/9075/products/watches-22_843188f9-74c4-4872-abf7-628c52ff32a7_50x50.jpg?v=1576073427",
+  },
+  {
+    id: 22,
+    title: "Bold Metallic Watch",
+    price: 12.99,
+    category: "Watch Collection",
+    image:
+      "https://cdn.shopify.com/s/files/1/0086/2348/9075/products/watches-2_555f9965-ce91-4d12-b6d3-6aed63aa994d_50x50.jpg?v=1576073432",
+  },
+  {
+    id: 23,
+    title: "Lens Greate Watch",
+    price: 12.99,
+    category: "Watch Collection",
+    image:
+      "https://cdn.shopify.com/s/files/1/0086/2348/9075/products/watches-7_ae25394f-28e8-411a-841f-8dacbcef0273_50x50.jpg?v=1576073405",
+  },
+  {
+    id: 24,
+    title: "Fillis Classic Watch",
+    price: 12.99,
+    category: "Watch Collection",
+    image:
+      "https://cdn.shopify.com/s/files/1/0086/2348/9075/products/watches-7_ae25394f-28e8-411a-841f-8dacbcef0273_50x50.jpg?v=1576073405",
+  },
+  {
+    id: 25,
+    title: "Fillis Classic Watch",
+    price: 12.99,
+    category: "Watch Collection",
+    image:
+      "https://cdn.shopify.com/s/files/1/0086/2348/9075/products/watches-7_ae25394f-28e8-411a-841f-8dacbcef0273_50x50.jpg?v=1576073405",
+  },
+  {
+    id: 26,
+    title: "Fillis Classic Watch",
+    price: 12.99,
+    category: "Flowers Collection",
+    image:
+      "https://plus.unsplash.com/premium_photo-1674986175088-2d7dda41f7f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+  },
+  {
+    id: 27,
+    title: "Fillis Classic Watch",
+    price: 12.99,
+    category: "Flowers Collection",
+    image:
+      "https://images.unsplash.com/photo-1561181286-d3fee7d55364?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=587&q=80",
+  },
+  {
+    id: 28,
+    title: "Fillis Classic Watch",
+    price: 12.99,
+    category: "Flowers Collection",
+    image:
+      "https://cdn.shopify.com/s/files/1/0086/2348/9075/products/flower-product-2_8b9ea8dc-e441-488c-ac8a-3a3b9417fa0d_360x.jpg?v=1576073381",
+  },
+  {
+    id: 29,
+    title: "Fillis Classic Watch",
+    price: 12.99,
+    category: "Flowers Collection",
+    image:
+      "https://cdn.shopify.com/s/files/1/0086/2348/9075/products/flower-product-2_8b9ea8dc-e441-488c-ac8a-3a3b9417fa0d_360x.jpg?v=1576073381",
+  },
+  {
+    id: 30,
+    title: "Fillis Classic Watch",
+    price: 12.99,
+    category: "Flowers Collection",
+    image:
+      "https://cdn.shopify.com/s/files/1/0086/2348/9075/products/flower-product-2_8b9ea8dc-e441-488c-ac8a-3a3b9417fa0d_360x.jpg?v=1576073381",
+  },
+  {
+    id: 31,
+    title: "Fillis Classic Watch",
+    price: 12.99,
+    category: "Flowers Collection",
+    image:
+      "https://cdn.shopify.com/s/files/1/0086/2348/9075/products/flower-product-2_8b9ea8dc-e441-488c-ac8a-3a3b9417fa0d_360x.jpg?v=1576073381",
+  },
 ];
-
-export default Data;

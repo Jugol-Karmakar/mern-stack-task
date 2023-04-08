@@ -49,15 +49,11 @@ const Reviews = () => {
     },
   ];
   return (
-    <section className="">
-      <div className="container mx-auto flex justify-between px-10">
-        <div className="">
-          <h2 className="text-4xl font-bold text-center py-1">
-            Our customers reviews
-          </h2>
-        </div>
+    <section className="bg-pink-50 py-10 mt-10">
+      <div className="flex justify-center pb-6">
+        <h2 className="text-3xl font-bold py-1">What customer say</h2>
       </div>
-      <div className="mx-20 pb-10 pt-5">
+      <div className="mx-20 pb-10">
         <Swiper
           slidesPerView={1}
           spaceBetween={30}

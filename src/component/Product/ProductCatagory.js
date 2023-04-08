@@ -1,5 +1,5 @@
 import React from "react";
-import Data from "../../Data";
+import { data } from "../../Data";
 
 const ProductCatagory = ({ menuItems, setItems, filterItem }) => {
   return (
@@ -10,7 +10,7 @@ const ProductCatagory = ({ menuItems, setItems, filterItem }) => {
       <div className="flex flex-col items-center">
         <button
           className="bg-[#f6f9fc] w-full text-left px-5 py-2 text-lg font-medium mb-0.5 hover:shadow-md transition-all duration-300 overflow-hidden"
-          onClick={() => setItems(Data)}
+          onClick={() => setItems(data)}
         >
           View All Gifts
         </button>
